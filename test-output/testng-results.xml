@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Sending text 'demo' to: username]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: username]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: username]]>
+    </line>
+    <line>
+      <![CDATA[Sending text 'vcD3v123' to: password]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: password]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking using JavaScript on: loginBtn]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: loginBtn]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: loginBtn]]>
+    </line>
+    <line>
+      <![CDATA[Clicking using JavaScript on: menuBtn]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: menuBtn]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: menuBtn]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on: newiQaptureBtn]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: newiQaptureBtn]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: newiQaptureBtn]]>
+    </line>
+    <line>
+      <![CDATA[Trying to find Element: dashBoardLink]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: dashBoardLink]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard page displayed and login successful]]>
+    </line>
+    <line>
+      <![CDATA[User Loggedin Successfully & Dash Board Page Opened]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21460" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21460" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:38Z">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="setUp" is-config="true" duration-ms="12786" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_Test()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="Login_Test" duration-ms="7782" started-at="2020-02-22T04:42:29Z" finished-at="2020-02-22T04:42:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sending text 'demo' to: username]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: username]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: username]]>
+            </line>
+            <line>
+              <![CDATA[Sending text 'vcD3v123' to: password]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: password]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking using JavaScript on: loginBtn]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: loginBtn]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: loginBtn]]>
+            </line>
+            <line>
+              <![CDATA[Clicking using JavaScript on: menuBtn]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: menuBtn]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: menuBtn]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on: newiQaptureBtn]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: newiQaptureBtn]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: newiQaptureBtn]]>
+            </line>
+            <line>
+              <![CDATA[Trying to find Element: dashBoardLink]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: dashBoardLink]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard page displayed and login successful]]>
+            </line>
+            <line>
+              <![CDATA[User Loggedin Successfully & Dash Board Page Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="tearDown" is-config="true" duration-ms="831" started-at="2020-02-22T04:42:37Z" finished-at="2020-02-22T04:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
