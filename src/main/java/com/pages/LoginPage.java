@@ -42,7 +42,7 @@ public class LoginPage {
 
 
 	// Actions:......................................................................................
-	public static  String validate_LoginPage_Title(){
+	public static String validate_LoginPage_Title(){
 		log("Title of the Login Page is: "+getDriver().getTitle());
 		return getDriver().getTitle();
 	}

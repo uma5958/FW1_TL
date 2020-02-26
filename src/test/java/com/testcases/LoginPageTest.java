@@ -4,9 +4,7 @@
 
 package com.testcases;
 
-import static com.pages.LoginPage.login;
-import static com.pages.LoginPage.validate_LoginPage_Title;
-import static com.pages.LoginPage.verify_Valuechain_wesite_navigation_on_clicking_Valuechain_logo;
+import static com.pages.LoginPage.*;
 
 import org.testng.Assert;
 import org.testng.Reporter;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Sending text 'demo' to: username]]>
@@ -28,47 +28,55 @@
     <line>
       <![CDATA[Found Element: loginBtn]]>
     </line>
-    <line>
-      <![CDATA[Clicking using JavaScript on: menuBtn]]>
-    </line>
-    <line>
-      <![CDATA[Trying to find Element: menuBtn]]>
-    </line>
-    <line>
-      <![CDATA[Found Element: menuBtn]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on: newiQaptureBtn]]>
-    </line>
-    <line>
-      <![CDATA[Trying to find Element: newiQaptureBtn]]>
-    </line>
-    <line>
-      <![CDATA[Found Element: newiQaptureBtn]]>
-    </line>
-    <line>
-      <![CDATA[Trying to find Element: dashBoardLink]]>
-    </line>
-    <line>
-      <![CDATA[Found Element: dashBoardLink]]>
-    </line>
-    <line>
-      <![CDATA[Dashboard page displayed and login successful]]>
-    </line>
-    <line>
-      <![CDATA[User Loggedin Successfully & Dash Board Page Opened]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21460" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:38Z">
+  <suite name="Default suite" duration-ms="35835" started-at="2020-02-25T10:54:42Z" finished-at="2020-02-25T10:55:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21460" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:38Z">
+    <test name="Default test" duration-ms="35835" started-at="2020-02-25T10:54:42Z" finished-at="2020-02-25T10:55:18Z">
       <class name="com.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="setUp" is-config="true" duration-ms="12786" started-at="2020-02-22T04:42:16Z" finished-at="2020-02-22T04:42:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="setUp" is-config="true" duration-ms="25690" started-at="2020-02-25T10:54:42Z" finished-at="2020-02-25T10:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Login_Test()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="Login_Test" duration-ms="7782" started-at="2020-02-22T04:42:29Z" finished-at="2020-02-22T04:42:37Z">
+        <test-method status="FAIL" signature="Login_Test()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="Login_Test" duration-ms="3695" started-at="2020-02-25T10:55:08Z" finished-at="2020-02-25T10:55:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.pages.LoginPage.login(LoginPage.java:55)
+at com.testcases.LoginPageTest.Login_Test(LoginPageTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Sending text 'demo' to: username]]>
@@ -97,39 +105,9 @@
             <line>
               <![CDATA[Found Element: loginBtn]]>
             </line>
-            <line>
-              <![CDATA[Clicking using JavaScript on: menuBtn]]>
-            </line>
-            <line>
-              <![CDATA[Trying to find Element: menuBtn]]>
-            </line>
-            <line>
-              <![CDATA[Found Element: menuBtn]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on: newiQaptureBtn]]>
-            </line>
-            <line>
-              <![CDATA[Trying to find Element: newiQaptureBtn]]>
-            </line>
-            <line>
-              <![CDATA[Found Element: newiQaptureBtn]]>
-            </line>
-            <line>
-              <![CDATA[Trying to find Element: dashBoardLink]]>
-            </line>
-            <line>
-              <![CDATA[Found Element: dashBoardLink]]>
-            </line>
-            <line>
-              <![CDATA[Dashboard page displayed and login successful]]>
-            </line>
-            <line>
-              <![CDATA[User Loggedin Successfully & Dash Board Page Opened]]>
-            </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="tearDown" is-config="true" duration-ms="831" started-at="2020-02-22T04:42:37Z" finished-at="2020-02-22T04:42:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTest@402a079c]" name="tearDown" is-config="true" duration-ms="979" started-at="2020-02-25T10:55:17Z" finished-at="2020-02-25T10:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
